@@ -89,3 +89,11 @@ p{
 h2{
     font-size: 70px;
 }
+
+.weather-img-con img{
+    height: 50px;
+}
+.weather-img-con{
+    display: flex;
+    justify-content: center;
+}
