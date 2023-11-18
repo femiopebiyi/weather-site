@@ -6,7 +6,11 @@ const locationDisplay = document.querySelector(".location");
 const weatherContainer = document.querySelector(".weather");
 const weatherImg =  document.querySelector(".weather-img-con img")
 
-
+cityInput.addEventListener("keypress", function(event){
+    if(event.key === "Enter"){
+        fetchApi()
+    }
+})
 
 async function fetchApi (){
     try{
